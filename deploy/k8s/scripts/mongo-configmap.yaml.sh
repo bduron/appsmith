@@ -13,5 +13,5 @@ metadata:
 data:
   MONGO_INITDB_DATABASE: $mongo_database
   MONGO_INITDB_ROOT_USERNAME: $mongo_root_user
-  MONGO_INITDB_ROOT_PASSWORD: $mongo_root_password
+  MONGO_INITDB_ROOT_PASSWORD: "$mongo_root_password"
 EOF
